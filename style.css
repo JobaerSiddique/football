@@ -88,7 +88,7 @@ nav span a{
 
 
 /* header section end */
-
+ /* main section star */
 .container{
     display: flex;
     justify-content: center;
@@ -190,6 +190,8 @@ nav span a{
     
     
 }
+ /* main section end */
+ /* footer  Section start */
 .footer-main{
     margin-top: 158px;
 }
@@ -288,6 +290,7 @@ nav span a{
     .login-link{
         margin-right: 20px;
     }
+     /* main section start */
     .players{
         display: grid;
         grid-template-columns: repeat(1,1fr);
@@ -327,7 +330,8 @@ nav span a{
         height: 248px;
     } 
 
-
+    /* main section end */
+    /* footer section start */
     .footer-main{
         margin-top: 43px;
     }
