@@ -8,7 +8,7 @@ body{
 }
 /* header section start */
 .header-main{
-    background: blue;
+    background:rgb(4, 4, 143);
     width: 100%;
     height: 500px;
     margin-bottom: 70px;
@@ -25,6 +25,7 @@ body{
 }
 .header-title h3{
   font-size: 64px;
+  color: white;
 }
 .header-link{
     padding: 10px 24px; 
