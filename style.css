@@ -40,6 +40,9 @@ nav span a{
     background: #E02C6D;
     width: 123px;
 }
+.login-link:hover{
+    background: radial-gradient(blue,cyan);
+}
 #login-id{
     margin-right: 10px;
 }
@@ -66,10 +69,17 @@ nav span a{
    
     text-decoration: none;
     color: white;
+
 }
+
+
 .header-banner img{
     width: 556.01px;
     height: 438px;
+    transition: transform 3s ease-in;
+}
+.header-banner:hover{
+    transform: rotate(45deg) ;
 }
 
 
@@ -196,8 +206,10 @@ nav span a{
         
     }
     .header-main{
-        width: 100%;
-        height: 720px
+        display: flex;
+        flex-direction: column;
+        
+        
         
     }    
     #bars{
@@ -219,7 +231,7 @@ nav span a{
     .header-part{
         display: grid;
         grid-template-columns: repeat(1,1fr);
-        grid-row-gap:50px;
+        grid-row-gap:10px;
     }
     .header-title h3{
         width: 278px;
@@ -236,7 +248,7 @@ nav span a{
     }
     .header-banner img{
         margin-top: 50px;
-        width: 329px;
+        width: 320px;
         height: 260px;
         position: relative;
         left: 30px;
@@ -274,6 +286,7 @@ nav span a{
         display: flex;
         flex-direction: column;
         justify-content: center;
+        align-self: center;
     }
     .footer-logo img{
         width: 150px;
