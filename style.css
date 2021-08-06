@@ -142,12 +142,44 @@ nav span a{
     font-size:48px;
 }
 .watch-link{
-    /* width: 173px;
-    height: 44px;
+    
+    
+   
+    padding: 10px 24px; 
     background: #E02C6D;
-    padding: 10px 24px;
+   
+    text-decoration: none;
     color: white;
-    margin: 24px 0px; */
+    
+    
+}
+.fifa-section{
+    margin-top: 165px;
+}
+.fifa-cup{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-column-gap:50px ;
+}
+.fifa-thumbnil img{
+    width: 567px;
+    height: 427px;
+    transition: transform 2s ease-in;
+}
+.fifa-thumbnil img :hover{
+    transform: rotate(45deg);
+}
+.fifa-title{
+    
+    width: 469px;
+    height: 309px;
+    
+}
+.fifa-title a{
+    margin-top: 25px;
+}
+.fifa-link{
+    
     
    
     padding: 10px 24px; 
@@ -279,6 +311,23 @@ nav span a{
     .broadcast h3{
         font-size:30px;
     }
+
+    .fifa-cup{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .fifa-title{
+    
+        width: 329px;
+        height: 299px;
+        margin-bottom: 29px;
+    }   
+    .fifa-thumbnil img{
+        width: 328px;
+        height: 248px;
+    } 
+
+
     .footer-main{
         margin-top: 43px;
     }
