@@ -10,9 +10,12 @@ body{
 .header-main{
     background:rgb(4, 4, 143);
     width: 100%;
-    height: 600px;
+    height: 700px;
     margin-bottom: 70px;
    
+}
+.media-sector{
+    display: none;
 }
 .navbar{
     width: 100%;
@@ -21,6 +24,7 @@ body{
     justify-content: space-around;
     margin-top: 15px;
     padding-top: 35px;
+    margin-bottom: 20px;
     
 }
 nav {
@@ -107,6 +111,9 @@ nav span a{
     font-size: 16px;
     
 }
+.Broadcast-section{
+    margin-top: 165px;
+}
 .broadcast{
     display: grid;
     grid-template-columns: repeat(2,1fr);
@@ -141,6 +148,9 @@ nav span a{
     
     
 }
+.footer-main{
+    margin-top: 158px;
+}
 
 .footer-logo img{
     width: 483.87px;
@@ -154,6 +164,7 @@ nav span a{
     display: flex;
     justify-content:center;
     padding:  0px 14px;
+    margin-top: 20px;
 }
 .social-section a img{
     width: 32px;
@@ -163,6 +174,7 @@ nav span a{
 }
 .footer-end{
     text-align: center;
+    margin-top: 20px;
     
 }
 
@@ -179,7 +191,59 @@ nav span a{
 /* responsive mobile */
 
 @media only screen and (max-width: 600px){
-    
+    .media-sector{
+        display: inline;
+        
+    }
+    .header-main{
+        width: 100%;
+        height: 720px
+        
+    }    
+    #bars{
+        background: white;
+        position: relative;
+        left: 20px;
+        top: 2px;
+        border: 2px solid white;
+        border-radius: 3px;
+    }
+    .media-nav{
+        display: none;
+    }
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 46px;
+    }
+    .header-part{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-row-gap:50px;
+    }
+    .header-title h3{
+        width: 278px;
+        height: 138px;
+        font-size:36px ;
+        position: relative;
+        left: 22px;
+        
+    }
+    .header-link{
+        position: relative;
+        left: 22px;
+        
+    }
+    .header-banner img{
+        margin-top: 50px;
+        width: 329px;
+        height: 260px;
+        position: relative;
+        left: 30px;
+    }
+    .login-link{
+        margin-right: 20px;
+    }
     .players{
         display: grid;
         grid-template-columns: repeat(1,1fr);
@@ -203,8 +267,17 @@ nav span a{
     .broadcast h3{
         font-size:30px;
     }
-    /* .footer-logo img{
+    .footer-main{
+        margin-top: 43px;
+    }
+    .footer-section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .footer-logo img{
         width: 150px;
         height: 63px;
-    } */
+        justify-content: center;
+    }
 }
